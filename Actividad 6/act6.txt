@@ -1,0 +1,9 @@
+Regex utilizada: /^\[\+672 \d{10}\] (Skipper|Kowalski|Cabo|Rico)$/
+
+Registros encontrados: 4
+Datos obtenidos:
+
+[+672 7473935113] Rico
+[+672 5345009331] Skipper
+[+672 8766764155] Kowalski
+[+672 5085533408] Cabo
