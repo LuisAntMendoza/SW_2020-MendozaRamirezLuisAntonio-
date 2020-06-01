@@ -1,0 +1,24 @@
+Regex usada: /^Drogas ([0][1-9]|[1-2][0-9]|3[0-1])\/([0][1-9]|1[0-2])\/20(0[5-9]|1[0-9]|20)/
+
+Registros encontrados: 19
+Datos obtenidos:
+
+Drogas 22/10/2008 Hernández, Ernesto
+Drogas 19/09/2018 Fernández, Pedro
+Drogas 16/03/2005 Pérez, Ratón
+Drogas 25/10/2018 Juárez, Miguel
+Drogas 17/12/2006 Cebolla, Shrek
+Drogas 27/11/2009 Bond, James
+Drogas 30/10/2006 López, Ana
+Drogas 19/01/2016 Juárez, Matilda
+Drogas 28/03/2010 Pérez, Pedro
+Drogas 31/10/2011 Juárez, Susana
+Drogas 02/01/2006 Juárez, Benito
+Drogas 24/05/2016 Pana, Miguel
+Drogas 19/10/2014 López, Susana
+Drogas 13/09/2013 De la Torre, Armando
+Drogas 29/10/2019 Hernández, Susana
+Drogas 15/08/2017 Cruz, Ernesto
+Drogas 11/10/2013 Juárez, Ana
+Drogas 07/03/2005 López-Gatell, Ana
+Drogas 06/07/2008 Shang, Jorge
