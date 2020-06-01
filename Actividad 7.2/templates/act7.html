@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="registro-alumno">
+        <form action="../dynamics/act7.php" method="POST">
+            <h3>Ingrese los campos que se le solicitan.</h3>
+            <h4>Nombre(s)</h4>
+            <input type="text" name="Nombre" pattern="(^[A-Z][a-zñÑáéíóúÁÉÍÓÚ]+$)|(^[A-Z][a-zñÑáéíóúÁÉÍÓÚ]+[ ][A-Z][a-zñÑáéíóúÁÉÍÓÚ]+$)" title="Ingrese un nombre válido" maxlength="20" required>
+            <h4>Apellido Paterno</h4>
+            <input type="text" name="apPat" required pattern="(^[A-Z][a-zñÑáéíóúÁÉÍÓÚ]+$)" title="Ingrese un Apellido válido">
+            <h4>Apellido Materno</h4>
+            <input type="text" name="apMat" required pattern="(^[A-Z][a-zñÑáéíóúÁÉÍÓÚ]+$)" title="Ingrese un Apellido válido">
+            <h4>Fecha de nacimiento</h4>
+            <input type="date" name="fNac" required pattern="^\d{2}\/\d{2}\/\d{4}$" title="Ingrese una fecha válida">
+            <h4>RFC</h4>
+            <input type="text" name="RFC" pattern="^[A-Z]{4}[0-9]{6}[0-9A-Z]{3}$" required maxlength="13" class="RFC" title="Ingrese un RFC válido">
+            <h4>Colegio</h4>
+            <select name="Colegio">
+                <optgroup label="Área I">
+                    <option value="Física">Física</option>
+                    <option value="Informática">Informática</option>
+                    <option value="Matemáticas">Matemáticas</option>
+                </optgroup>
+                <optgroup label="Área II">
+                    <option value="Biología">Biología</option>
+                    <option value="Educación Física">Educación Física</option>
+                    <option value="Morfología, Fisiología y Salud">Morfología, Fisioligía y Salud</option>
+                    <option value="Orientación Educativa">Orientación Educativa</option>
+                    <option value="Psicología e Higiene Mental">Psicología e Higiene Mental</option>
+                    <option value="Química">Química</option>
+                </optgroup>
+                <optgroup label="Área III">
+                    <option value="Ciencias Sociales">Ciencias Sociales</option>
+                    <option value="Geografía">Geografía</option>
+                    <option value="Historia">Historia</option>
+                </optgroup>
+                <optgroup label="Área IV">
+                    <option value="Alemán">Alemán</option>
+                    <option value="Artes Plásticas">Artes Plásticas</option>
+                    <option value="Danza">Danza</option>
+                    <option value="Dibujo y Modelado">Dibujo y Modelado</option>
+                    <option value="Filosofía">Filosofía</option>
+                    <option value="Francés">Francés</option>
+                    <option value="Inglés">Inglés</option>
+                    <option value="Italiano">Italiano</option>
+                    <option value="Letras Clásicas">Letras Clásicas</option>
+                    <option value="Literatura">Literatura</option>
+                    <option value="Música">Música</option>
+                    <option value="Teatro">Teatro</option>
+                </optgroup>
+                <optgroup label="ETE">
+                    <option value="Estudios Técnicos Especializados">Estudios Técnicos Especializados</option>
+                </optgroup>
+            </select>
+            <h4>Contraseña</h4>
+            <input type="password" name="Contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!-+])([A-Za-z\d!-+]|[^ ]){10,20}$" required
+                title="Ingrese una contraseña segura. Requiere entre 10 y 20 caracteres, mínimo 1 minúscula, 1 mayúscula y 1 caractér especial.">
+            <br>
+            <br>
+            <input type="submit" value="Ingresar" class="login-enviar">
+        </form>
+    </div>
+</body>
+
+</html>
