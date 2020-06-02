@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <form action="../dynamics/cesar.php" method="post">
+        <fieldset>
+            <legend>¡Ingrese su mensaje!</legend>
+            <input type="text" name="mensaje" pattern="^[\w,?. ]+$" title="No se aceptan acentos ni caracteres latinos como la ñ"><br>
+            <p>Clave: </p>
+            <input type="number" name="mover" max="24" min="1">
+            <input type="submit" value="¡Cifrar!">
+        </fieldset>
+    </form>
+</body>
+
+</html>
